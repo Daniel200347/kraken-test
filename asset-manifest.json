@@ -1,11 +1,8 @@
 {
   "files": {
-    "main.css": "/kraken-test/static/css/main.0e1db668.css",
-    "main.js": "/kraken-test/static/js/main.2b6a9e68.js",
+    "main.css": "/kraken-test/static/css/main.81547539.css",
+    "main.js": "/kraken-test/static/js/main.fac9a32c.js",
     "static/media/BackgroundIconPro.png": "/kraken-test/static/media/BackgroundIconPro.4572f6c39234cd7db1da.png",
-    "static/media/screen.png": "/kraken-test/static/media/screen.355bc6605f79c6e210f9.png",
-    "static/media/BTCIMage.png": "/kraken-test/static/media/BTCIMage.9ed9c1c681cb5eb88aaf.png",
-    "static/media/screenAndPhone.png": "/kraken-test/static/media/screenAndPhone.64999ff834df9c415be9.png",
     "static/media/KrakenProductRegularOblique.ttf": "/kraken-test/static/media/KrakenProductRegularOblique.d529f8e5335b6715f727.ttf",
     "static/media/KrakenProductMedium.ttf": "/kraken-test/static/media/KrakenProductMedium.b97d67851cc764e18169.ttf",
     "static/media/KrakenProductSemiBold.ttf": "/kraken-test/static/media/KrakenProductSemiBold.b185836d63bbeb2a3a21.ttf",
@@ -13,9 +10,12 @@
     "static/media/KrakenProductBold.ttf": "/kraken-test/static/media/KrakenProductBold.b2f527d4a6be9974f1f9.ttf",
     "static/media/KrakenBrandBold.otf": "/kraken-test/static/media/KrakenBrandBold.d340a82cc3c195662911.otf",
     "static/media/KrakenBrandRegular.otf": "/kraken-test/static/media/KrakenBrandRegular.50c450ebce47915cba89.otf",
+    "static/media/screen.png": "/kraken-test/static/media/screen.bb87d41267eaa156c8dc.png",
     "static/media/menu.svg": "/kraken-test/static/media/menu.7b8a21c076e75942ae8855e7ae9a68a2.svg",
     "static/media/diamond.svg": "/kraken-test/static/media/diamond.6a46480cd6fe90dd192f6649c9c4b1eb.svg",
+    "static/media/BTCIMage.png": "/kraken-test/static/media/BTCIMage.dca7cb3daee32819759c.png",
     "static/media/coin.svg": "/kraken-test/static/media/coin.82f5bae505270a9855888e26559ea05e.svg",
+    "static/media/screenAndPhone.png": "/kraken-test/static/media/screenAndPhone.2471319610e2ee214b45.png",
     "static/media/cardanoIcon.svg": "/kraken-test/static/media/cardanoIcon.c336e71882999157e0a157a03c6913f0.svg",
     "static/media/decentralandIcon.svg": "/kraken-test/static/media/decentralandIcon.8063999736310f845c8bf6df6a7dadc6.svg",
     "static/media/sushiIcon.svg": "/kraken-test/static/media/sushiIcon.40f59991b33353e653238b01272c59dc.svg",
@@ -63,11 +63,11 @@
     "static/media/wavesIcon.svg": "/kraken-test/static/media/wavesIcon.b262890b472013f186c222f4eec13a86.svg",
     "static/media/plus.svg": "/kraken-test/static/media/plus.28f16824b65009b9f8778b16b688565f.svg",
     "static/media/minus.svg": "/kraken-test/static/media/minus.a4209a27fec6cc39c59b99e9cf63d3ef.svg",
-    "main.0e1db668.css.map": "/kraken-test/static/css/main.0e1db668.css.map",
-    "main.2b6a9e68.js.map": "/kraken-test/static/js/main.2b6a9e68.js.map"
+    "main.81547539.css.map": "/kraken-test/static/css/main.81547539.css.map",
+    "main.fac9a32c.js.map": "/kraken-test/static/js/main.fac9a32c.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e1db668.css",
-    "static/js/main.2b6a9e68.js"
+    "static/css/main.81547539.css",
+    "static/js/main.fac9a32c.js"
   ]
 }
