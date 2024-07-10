@@ -94,6 +94,8 @@ const Carousel = () => {
 
     return (
         <div className={styles.carouselContainer}>
+            <div className={styles.boxShadowLeft}></div>
+            <div className={styles.boxShadowRight}></div>
             <Marquee speed={10} className={styles.logos} gradient={false} direction="right">
                 <div className={styles.horizontalSlideWrapper}>
                     {slides.map((slide, slideIndex) => (

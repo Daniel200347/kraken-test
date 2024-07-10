@@ -2,7 +2,6 @@
     position: relative;
     overflow: hidden;
     max-width: 1200px;
-
 }
 
 .logos {
@@ -12,10 +11,22 @@
     position: relative;
     height: 100%;
     overflow: hidden;
-
 }
 
+.boxShadowLeft {
+    position: absolute;
+    width: 387px;
+    height: 256px;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%);
+}
 
+.boxShadowRight {
+    position: absolute;
+    width: 387px;
+    height: 256px;
+    background: linear-gradient(270deg, rgba(241, 240, 255, 0.00) 0%, #F1F0FF 100%);
+    right: 0;
+}
 
 .horizontalSlide {
     display: inline-flex;
