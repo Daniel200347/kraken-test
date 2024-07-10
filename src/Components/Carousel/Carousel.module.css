@@ -56,7 +56,10 @@
 }
 
 @media (max-width: 1000px) {
-    .boxShadowRight.boxShadowLeft {
+    .boxShadowRight {
+        display: none;
+    }
+    .boxShadowLeft{
         display: none;
     }
 }
