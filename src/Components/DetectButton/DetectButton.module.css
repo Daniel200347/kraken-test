@@ -1,0 +1,76 @@
+.buttonActive {
+    font-family: "KrakenProductSemiBold";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: #7132F5;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    box-shadow: 0 2px 0 0 rgba(255, 255, 255, 0.20) inset, 0 -2px 0 0 #5B1ECF inset;
+    border-radius: 9999px;
+}
+
+.buttonActive:hover {
+    color: #FFFFFF;
+    border-radius: 9999px;
+    background: #5B1ECF;
+    border: none;
+    box-shadow: 0 2px 0 0 rgba(255, 255, 255, 0.20) inset, 0 -2px 0 0 #5B1ECF inset;
+}
+
+
+.buttonActiveWhite {
+    font-family: "KrakenProductSemiBold";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7132F5;
+    border-radius: 9999px;
+    background: #FFF;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.buttonActiveWhite:hover {
+    color: #7132F5;
+    background: #E3E3E5;
+
+}
+
+.buttonInActive {
+    font-family: "KrakenProductSemiBold";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    transition: background-color 0.2s;
+    box-shadow: 0 2px 0 0 rgba(255, 255, 255, 0.20) inset, 0 -2px 0 0 #5B1ECF inset;
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    background: #7132F5;
+    opacity: 35%;
+    pointer-events: none;
+}
+
+.buttonInActiveWhite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7132F5;
+    border-radius: 9999px;
+    background: #FFF;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    opacity: 35%;
+    pointer-events: none;
+}
+

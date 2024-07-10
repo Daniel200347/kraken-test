@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "KrakenBrandBold";
+    src: local(Kraken Brand),
+    url('./assets/kraken-brand/KrakenBrandBold.otf') format("opentype")
+}
+
+@font-face {
+    font-family: "KrakenBrandRegular";
+    src: local(Kraken Brand),
+    url('./assets/kraken-brand/KrakenBrandRegular.otf') format("opentype")
+}
+
+@font-face {
+    font-family: "KrakenProductBold";
+    src: local(kraken product),
+    url('./assets/kraken-product/KrakenProductBold.ttf') format("TrueType")
+}
+
+@font-face {
+    font-family: "KrakenProductMedium";
+    src: local(kraken product),
+    url('./assets/kraken-product/KrakenProductMedium.ttf') format("TrueType")
+}
+
+@font-face {
+    font-family: "KrakenProductRegular";
+    src: local(kraken product),
+    url('./assets/kraken-product/KrakenProductRegular.ttf') format("TrueType")
+}
+
+@font-face {
+    font-family: "KrakenProductRegularOblique";
+    src: local(kraken product),
+    url('./assets/kraken-product/KrakenProductRegularOblique.ttf') format("TrueType")
+}
+
+@font-face {
+    font-family: "KrakenProductSemiBold";
+    src: local(kraken product),
+    url('./assets/kraken-product/KrakenProductSemiBold.ttf') format("TrueType")
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #FFFFFF;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+

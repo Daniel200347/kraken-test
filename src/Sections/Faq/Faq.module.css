@@ -1,0 +1,38 @@
+
+.faq {
+    padding: 120px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.title {
+    text-align: center;
+}
+
+.textStyle {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.AccordionWrapper {
+    display: grid;
+    gap: 8px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 72px;
+}
+
+@media (max-width: 1000px) {
+    .faq {
+        padding: 80px 0;
+    }
+
+}

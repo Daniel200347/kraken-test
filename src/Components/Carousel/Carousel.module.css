@@ -1,0 +1,45 @@
+.carouselContainer {
+    position: relative;
+    overflow: hidden;
+    max-width: 1200px;
+
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+
+
+.horizontalSlide {
+    display: inline-flex;
+    white-space: nowrap;
+    gap: 32px;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.item {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    cursor: pointer;
+    gap: 8px;
+    border-radius: 9999px;
+    background: #FFF;
+    width: 100%;
+    min-width: max-content;
+}
+
+.horizontalSlideWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

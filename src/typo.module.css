@@ -1,0 +1,158 @@
+.displayLgRegular {
+    font-family: "KrakenBrandRegular";
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 66px;
+}
+
+.displayMdRegular {
+    font-family: "KrakenBrandRegular";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+}
+
+.displaySmRegular {
+    font-family: "KrakenBrandRegular";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.displayXsSemibold {
+    font-family: "KrakenBrandBold";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.displayXsRegular {
+    font-family: "KrakenBrandRegular";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.xlSemibold {
+    font-family: "KrakenProductSemiBold";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.xlRegular {
+    font-family: "KrakenBrandRegular";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.lgSemibold {
+    font-family: "KrakenProductSemiBold";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+
+}
+
+.lgMedium {
+    font-family: "KrakenProductMedium";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+
+.lgRegular {
+    font-family: "KrakenProductRegular";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.mdSemibold {
+    font-family: "KrakenProductSemiBold";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.mdMedium {
+    font-family: "KrakenProductMedium";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.mdRegular {
+    font-family: "KrakenProductRegular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.smRegular {
+    font-family: "KrakenProductRegular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.smSemibold {
+    font-family: "KrakenProductSemiBold";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.smRegular {
+    font-family: "KrakenProductRegular";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.xsRegular {
+    font-family: "KrakenProductRegular";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+@media (max-width: 1000px) {
+    .displayMdRegular {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+    }
+
+    .displayLgRegular {
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px;
+    }
+
+    .displayXsRegular {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+    }
+
+    .lgRegular {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .xlRegular {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}

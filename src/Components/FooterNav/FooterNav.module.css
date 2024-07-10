@@ -1,0 +1,53 @@
+.link {
+    font-family: "KrakenProductRegular";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: #C0B9FF;
+}
+
+.container {
+    margin-right: 67px;
+    margin-top: 32px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.container:nth-child(-n+3) {
+    margin-top: 0;
+}
+
+.container:nth-child(3n) {
+    margin-right: 0;
+}
+
+.title {
+    color: #C0B9FF;
+}
+
+.linksWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+@media (max-width: 1000px) {
+    .wrapper {
+        min-width: 124px;
+    }
+
+    .container {
+        margin-right: 0;
+    }
+}
