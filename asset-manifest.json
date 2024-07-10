@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kraken-test/static/css/main.4386092d.css",
-    "main.js": "/kraken-test/static/js/main.1ae1eb87.js",
+    "main.css": "/kraken-test/static/css/main.0e1db668.css",
+    "main.js": "/kraken-test/static/js/main.2b6a9e68.js",
     "static/media/BackgroundIconPro.png": "/kraken-test/static/media/BackgroundIconPro.4572f6c39234cd7db1da.png",
     "static/media/screen.png": "/kraken-test/static/media/screen.355bc6605f79c6e210f9.png",
     "static/media/BTCIMage.png": "/kraken-test/static/media/BTCIMage.9ed9c1c681cb5eb88aaf.png",
@@ -63,11 +63,11 @@
     "static/media/wavesIcon.svg": "/kraken-test/static/media/wavesIcon.b262890b472013f186c222f4eec13a86.svg",
     "static/media/plus.svg": "/kraken-test/static/media/plus.28f16824b65009b9f8778b16b688565f.svg",
     "static/media/minus.svg": "/kraken-test/static/media/minus.a4209a27fec6cc39c59b99e9cf63d3ef.svg",
-    "main.4386092d.css.map": "/kraken-test/static/css/main.4386092d.css.map",
-    "main.1ae1eb87.js.map": "/kraken-test/static/js/main.1ae1eb87.js.map"
+    "main.0e1db668.css.map": "/kraken-test/static/css/main.0e1db668.css.map",
+    "main.2b6a9e68.js.map": "/kraken-test/static/js/main.2b6a9e68.js.map"
   },
   "entrypoints": [
-    "static/css/main.4386092d.css",
-    "static/js/main.1ae1eb87.js"
+    "static/css/main.0e1db668.css",
+    "static/js/main.2b6a9e68.js"
   ]
 }
