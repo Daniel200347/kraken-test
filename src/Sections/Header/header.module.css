@@ -130,4 +130,7 @@
     .button{
         display: none;
     }
+    .titleWrapper{
+        top: 56px;
+    }
 }

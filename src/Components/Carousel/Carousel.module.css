@@ -18,14 +18,16 @@
     width: 387px;
     height: 256px;
     background: linear-gradient(270deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%);
+    z-index: 2;
 }
 
 .boxShadowRight {
     position: absolute;
     width: 387px;
     height: 256px;
-    background: linear-gradient(270deg, rgba(241, 240, 255, 0.00) 0%, #F1F0FF 100%);
+    background: linear-gradient(90deg, rgba(241, 240, 255, 0.00) 0%, #F1F0FF 100%);
     right: 0;
+    z-index: 2;
 }
 
 .horizontalSlide {
