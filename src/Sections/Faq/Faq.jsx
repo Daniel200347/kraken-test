@@ -11,52 +11,47 @@ function Faq() {
     return <div className={classes.faq}>
         <Wrapper>
             <div className={classes.container}>
-                <h2 className={classNames(classes.title, typo.displayMdRegular, color.primaryInverse)}>Frequently Asked Questions</h2>
+                <h2 className={classNames(classes.title, typo.displayMdRegular, color.primaryInverse)}>Why is my deposit
+                    or withdrawal on hold?</h2>
                 <div className={classes.AccordionWrapper}>
                     <Accordion
-                        content={<p className={classes.textStyle}>Rewards enables you to earn crypto on every eligible
-                            asset in your account. By
-                            completing the tasks a Total Percentage Rate (TPR) will be compounded and applied to your
-                            assets. <p>To get Rewards you simply need to take part in the Rewards Period activity. You
-                                need to download the desktop app, login or sign up, go to My Events section, find the
-                                Rewards Period event and click the Start button. Complete weekly tasks, claim your
-                                rewards and increase the TPR. When the event is finished, your TPR will be applied to
-                                your eligible assets within 3(three) days.</p> Assets enabled in Rewards are still
-                            available to trade (including Spot and Margin trades) or withdraw at any time.</p>}
-                        title="Who can use Rewards?"/>
+                        content="A deposit or withdrawal being On Hold means that it
+                            was flagged for one of the reasons below. Some On Hold deposits and withdrawals are automatically released after a certain period
+                            of time, while other On Hold deposits and withdrawals will require manual intervention
+                            from Kraken's Support team."
+                        title="Why is my deposit or withdrawal on hold?"/>
                     <Accordion
-                        content="The weekly tasks require you to complete the tasks within a certain time period in order to claim the rewards. Your rewards must be claimed within the Reward Period event, and will expire thereafter. We recommend that you start the weekly tasks and claim the rewards at the earliest possible time. "
-                        title="How do I turn Rewards on or off?"/>
+                        content="For most cash deposit methods, you will see a unique deposit reference included with the deposit instructions. This deposit reference is very important and needs to be included in your bank transfer."
+                        title="Why is the deposit reference important?"/>
                     <Accordion
-                        content="Each asset will earn rewards at Total Percentage Rate (TPR). The reward rate will be paid out in kind. For example, if you are holding DOT you will receive your reward in DOT. In addition, any new funds deposited to your account will fall within the scope of the promotion, but only if you deposit them until the Rewards Period end."
-                        title="When are my earnings paid out?"/>
+                        content="The list above is not exhaustive. These institutions are not banks and rely on payment processors or use a single shared bank account in their own name to process payments on their clients’ behalf. Hence, deposits sent from these institutions reach us as transfers from a bank account in the name of a third-party and will have to be returned for this reason."
+                        title="Deposits from and withdrawals to third parties"/>
                     <Accordion
-                        content={<p className={classes.textStyle}>You can earn rewards for any eligible asset with a
-                            balance of more than 1 USD. There is no limit to the amount of rewards that can be earned,
-                            however the total amount of each asset eligible for Rewards at any given time is
-                            capped. <p>For example, if the cap on DOT is 500 DOT, and you have 300 DOT, you will earn
-                                the total percentage rate on all of your assets. If you have 900 DOT, you will earn on
-                                the first 500 and not on the remaining 400.</p>
-                            <p>You can check total amount of the other assets eligible for rewards in "My Rewards"
-                                section in the Desktop App.</p></p>} title="What are the limits??"/>
+                        content="A Trace number is a mandatory unique 15 digit
+                            reference number given to each ACH transfer, which can be used to investigate and track
+                            missing transfers. A Trace number will be required if we have to reach out to our funding
+                            provider." title="What is an ACH trace number?"/>
                     <Accordion
-                        content="You can take part in the event until 31.08.2024. After you start the event, you will have 28 days to complete your tasks."
-                        title="Where can I see my rewards?"/>
+                        content="Certain instant purchases, such as first time ACH Online Banking, Paypal, debit or credit card or digital wallet purchases, will trigger a withdrawal hold for up to 72 hours. Withdrawal holds may also be triggered by deposits from certain banks as well as security reasons. Additional cash purchases made during this 72-hour hold will also be locked for the remainder of the 72 hours.Trading is unaffected, you will still be able to trade throughout the period of the withdrawal hold."
+                        title="Why is there a withdrawal hold on my account?"/>
                     <Accordion
-                        content="You can take part in the event until 31.08.2024. After you start the event, you will have 28 days to complete your tasks."
-                        title="What is staking?"/>
+                        content="Some banks do not accept transfers involving crypto exchanges and result in withdrawals being rejected and returned to us. To prevent unnecessary delays with crediting these rejected withdrawals back to your Kraken account, the applicable bank is blocked on our system.
+If you are trying to withdraw to a bank that is not located in one of the supported regions, you will be prevented from saving these banking details. "
+                        title="Bank not allowed"/>
                     <Accordion
-                        content="You can take part in the event until 31.08.2024. After you start the event, you will have 28 days to complete your tasks."
-                        title="What are Opt-In Rewards?"/>
+                        content="Bank of America makes it easy to wire money to your Kraken account from inside your online banking or in-person at a local Bank of America location. Below are the instructions detailing how to wire money with our Customers Bank funding method."
+                        title="How do I send a domestic wire transfer to Kraken from Bank of America?"/>
                     <Accordion
                         content="You can take part in the event until 31.08.2024. After you start the event, you will have 28 days to complete your tasks."
                         title="Can I use Rewards both in the regular and the Pro apps?"/>
                     <Accordion
-                        content="You can take part in the event until 31.08.2024. After you start the event, you will have 28 days to complete your tasks."
-                        title="Is there a fee for using Rewards?"/>
+                        content="Below are instructions on how to wire from your Citibank account using online banking or in-person at a local Citibank location to your Kraken account using the Customers Bank funding method."
+                        title="How do I send a domestic wire transfer to Kraken from Citibank?"/>
                     <Accordion
-                        content="You can take part in the event until 31.08.2024. After you start the event, you will have 28 days to complete your tasks."
-                        title="Do I need to pay tax on rewards generated by Rewards?"/>
+                        content="We only support physical cash (in person) and debit card deposits (in-person) for Canadian Dollars (CAD) via our Canada Post partnership.
+For all other cash currency deposits (USD, EUR, GBP, AUD, CHF,) Kraken does not currently accept physical cash, checks, debit cards or credit cards.
+Debit or credit card use with the Buy Crypto feature and on the Kraken app is available to instantly purchase a range of cryptocurrencies. This service is currently limited to certain geographical regions, review our Visa and Mastercard purchases article for further information."
+                        title="Can I deposit or withdraw using physical cash, debit or credit card or something similar?"/>
                 </div>
             </div>
             <DetectButton isActive={false} className={classes.button} btnText="Download"/>

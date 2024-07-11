@@ -26,32 +26,86 @@ function Footer() {
         {
             title: 'Features',
             linkTexts: ['NFT Marketplace', 'Margin Trading', 'Futures Trading', 'OTC Trading', 'Institutions', 'API Trading', 'Staking Rewards', 'All features'],
-            href: ['#', '#', '#', '#', '#', '#', '#', '#']
+            href: [
+                'https://nft.kraken.com/',
+                'https://www.kraken.com/features/margin-trading',
+                'https://www.kraken.com/features/futures',
+                'https://www.kraken.com/institutions/otc',
+                'https://www.kraken.com/institutions',
+                'https://www.kraken.com/institutions/api',
+                'https://www.kraken.com/features/rewards',
+                'https://www.kraken.com/features'
+            ]
         },
         {
             title: 'Browse Prices',
             linkTexts: ['Bitcoin Price', 'Ethereum Price', 'Dogecoin Price', 'XRP Price', 'Cardano Price', 'Solana Price', 'Litecoin Price', 'All crypto prices'],
-            href: ['#', '#', '#', '#', '#', '#', '#', '#']
+            href: [
+                'https://www.kraken.com/prices/bitcoin',
+                'https://www.kraken.com/prices/ethereum',
+                'https://www.kraken.com/prices/dogecoin',
+                'https://www.kraken.com/prices/xrp',
+                'https://www.kraken.com/prices/cardano',
+                'https://www.kraken.com/prices/solana',
+                'https://www.kraken.com/prices/litecoin',
+                'https://www.kraken.com/prices'
+            ]
         },
         {
             title: 'Buying Guides',
             linkTexts: ['Buy Bitcoin', 'Buy Ethereum', 'Buy Dogecoin', 'Buy XRP', 'Buy Cardano', 'Buy Solana', 'Buy Litecoin', 'All crypto guides'],
-            href: ['#', '#', '#', '#', '#', '#', '#', '#']
+            href: [
+                'https://www.kraken.com/learn/buy-bitcoin-btc',
+                'https://www.kraken.com/learn/buy-ethereum-eth',
+                'https://www.kraken.com/learn/buy-dogecoin-doge',
+                'https://www.kraken.com/learn/buy-ripple-xrp',
+                'https://www.kraken.com/learn/buy-cardano-ada',
+                'https://www.kraken.com/learn/buy-solana-sol',
+                'https://www.kraken.com/learn/buy-litecoin-ltc',
+                'https://www.kraken.com/learn/crypto-guides'
+            ]
         },
         {
             title: 'Company',
             linkTexts: ['Kraken Security', 'Kraken Careers', 'Kraken Blog', 'Press Room', 'Affiliate Program', 'Asset Listings', 'Kraken Status', 'Support Center'],
-            href: ['#', '#', '#', '#', '#', '#', '#', '#']
+            href: [
+                'https://www.kraken.com/features/security',
+                'https://www.kraken.com/careers',
+                'https://blog.kraken.com/',
+                'https://www.kraken.com/press',
+                'https://support.kraken.com/hc/en-us/articles/360027545252-Kraken-Affiliate-program',
+                'https://www.kraken.com/listings',
+                'https://status.kraken.com/',
+                'https://support.kraken.com/hc/en-us'
+            ]
         },
         {
             title: 'Popular Markets',
             linkTexts: ['BTC to USD', 'ETH to USD', 'DOGE to USD', 'XRP to USD', 'ADA to USD', 'SOL to USD', 'LTC to USD', 'All crypto markets'],
-            href: ['#', '#', '#', '#', '#', '#', '#', '#']
+            href: [
+                'https://www.kraken.com/convert/btc/usd',
+                'https://www.kraken.com/convert/eth/usd',
+                'https://www.kraken.com/convert/doge/usd',
+                'https://www.kraken.com/convert/xrp/usd',
+                'https://www.kraken.com/convert/ada/usd',
+                'https://www.kraken.com/convert/sol/usd',
+                'https://www.kraken.com/convert/ltc/usd',
+                'https://www.kraken.com/convert'
+            ]
         },
         {
             title: 'Features',
             linkTexts: ['What is cryptocurrency?', 'Types of cryptocurrency', 'What is a blockchain?', 'What is Bitcoin?', 'What is Ethereum?', 'What is an NFT?', 'What is a DAO?', 'Learn crypto'],
-            href: ['#', '#', '#', '#', '#', '#', '#', '#']
+            href: [
+                'https://www.kraken.com/learn/what-is-cryptocurrency',
+                'https://www.kraken.com/learn/types-of-cryptocurrency',
+                'https://www.kraken.com/learn/what-is-blockchain-technology',
+                'https://www.kraken.com/learn/what-is-bitcoin-btc',
+                'https://www.kraken.com/learn/what-is-ethereum-eth',
+                'https://www.kraken.com/learn/what-are-non-fungible-tokens-nft',
+                'https://www.kraken.com/learn/what-is-decentralized-autonomous-organization-dao',
+                'https://www.kraken.com/learn'
+            ]
         },
     ];
 
@@ -76,29 +130,51 @@ function Footer() {
                         <div className={classes.linkContainerWrapper}>
                             <div className={classes.linkContainer}>
                                 {data.map((footer, index) => (
-                                    <FooterNav href={footer.href} key={index} title={footer.title}
-                                               linkTexts={footer.linkTexts}/>
+                                    <FooterNav
+                                        key={index}
+                                        title={footer.title}
+                                        links={footer.linkTexts.map((linkText, i) => ({
+                                            href: footer.href[i],
+                                            linkText,
+                                        }))}
+                                    />
                                 ))}
                                 <div></div>
                                 <div></div>
                                 <div className={classes.iconSection}>
                                     <h3 className={classNames(typo.xlSemibold, color.accentSubdued)}>Community</h3>
                                     <div className={classes.communityIconWrapper}>
-                                        <div className={classes.communityIconContainer}><a href="Instagram"><Instagram
+                                        <div className={classes.communityIconContainer}><a target="_blank"
+                                                                                           rel="noopener noreferrer"
+                                                                                           href="https://www.instagram.com/krakenfx/"><Instagram
                                             className={classes.communityIcon}/></a></div>
-                                        <div className={classes.communityIconContainer}><a href="Facebook"><Facebook
+                                        <div className={classes.communityIconContainer}><a target="_blank"
+                                                                                           rel="noopener noreferrer"
+                                                                                           href="https://www.facebook.com/KrakenFX/"><Facebook
                                             className={classes.communityIcon}/></a></div>
-                                        <div className={classes.communityIconContainer}><a href="Linkedin"><Linkedin
+                                        <div className={classes.communityIconContainer}><a target="_blank"
+                                                                                           rel="noopener noreferrer"
+                                                                                           href="https://www.linkedin.com/company/krakenfx/"><Linkedin
                                             className={classes.communityIcon}/></a></div>
-                                        <div className={classes.communityIconContainer}><a href="Twitter"><Twitter
+                                        <div className={classes.communityIconContainer}><a target="_blank"
+                                                                                           rel="noopener noreferrer"
+                                                                                           href="https://twitter.com/krakenfx"><Twitter
                                             className={classes.communityIcon}/></a></div>
-                                        <div className={classes.communityIconContainer}><a href="Youtube"><Youtube
+                                        <div className={classes.communityIconContainer}><a target="_blank"
+                                                                                           rel="noopener noreferrer"
+                                                                                           href="https://www.youtube.com/c/KrakenBitcoinExchange"><Youtube
                                             className={classes.communityIcon}/></a></div>
-                                        <div className={classes.communityIconContainer}><a href="Tiktok"><Tiktok
+                                        <div className={classes.communityIconContainer}><a target="_blank"
+                                                                                           rel="noopener noreferrer"
+                                                                                           href="https://www.tiktok.com/@krakenfx"><Tiktok
                                             className={classes.communityIcon}/></a></div>
-                                        <div className={classes.communityIconContainer}><a href="Reddit"><Reddit
+                                        <div className={classes.communityIconContainer}><a target="_blank"
+                                                                                           rel="noopener noreferrer"
+                                                                                           href="https://www.reddit.com/r/Kraken/?rdt=45589"><Reddit
                                             className={classes.communityIcon}/></a></div>
-                                        <div className={classes.communityIconContainer}><a href="Telegram"><Telegram
+                                        <div className={classes.communityIconContainer}><a target="_blank"
+                                                                                           rel="noopener noreferrer"
+                                                                                           href="https://t.me/kraken_exchange_official"><Telegram
                                             className={classes.communityIcon}/></a></div>
                                     </div>
                                 </div>
@@ -111,10 +187,14 @@ function Footer() {
                         <div className={classNames(classes.textWrapper)}>
                             <p className={classNames(typo.xsRegular, color.accentSubdued)}>© 2011 - 2024 Payward,
                                 Inc.</p>
-                            <a href="#" className={classNames(typo.xsRegular, classes.footerText)}>Privacy Notice</a>
-                            <a href="#" className={classNames(typo.xsRegular, classes.footerText)}>Terms of Service</a>
-                            <a href="#" className={classNames(typo.xsRegular, classes.footerText)}>Cookie Settings</a>
-                            <a href="#" className={classNames(typo.xsRegular, classes.footerText)}>Disclosures</a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.kraken.com/legal/privacy"
+                               className={classNames(typo.xsRegular, classes.footerText)}>Privacy Notice</a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.kraken.com/legal"
+                               className={classNames(typo.xsRegular, classes.footerText)}>Terms of Service</a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.kraken.com/legal/cookies"
+                               className={classNames(typo.xsRegular, classes.footerText)}>Cookie Settings</a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.kraken.com/legal/disclosures"
+                               className={classNames(typo.xsRegular, classes.footerText)}>Disclosures</a>
                         </div>
                     </div>
                     <p className={classNames(classes.descriptionFooter, typo.smRegular, color.accentSubdued)}>These

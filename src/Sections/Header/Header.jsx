@@ -19,46 +19,47 @@ function Header() {
 
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
+        toggleOverflow();
     };
 
     const toggleButton = () => {
-        toggleMenu();
-        toggleOverflow()
-    }
+        setMenuOpen(false);
+        document.body.style.overflow = 'visible';
+    };
 
     return (
         <div className={classes.color}>
             <div className={classes.headerWrapper}>
                 <div className={classes.left}>
-                    <Logotype/>
+                    <Logotype onclick={toggleButton}/>
                     <nav className={` ${menuOpen ? classes.isActive : ''}`}>
                         <ul className={` ${classes.titleWrapper} ${menuOpen ? classes.isActive : ''}`}>
                             <li onClick={toggleButton} className={classes.li}>
-                                <a className={classes.link}>
+                                <a href="#Main" className={classes.link}>
                                     <span style={{cursor: "pointer"}}
                                           className={classNames(color.primary, typo.mdMedium)}>About</span>
                                 </a>
                             </li>
                             <li onClick={toggleButton} className={classes.li}>
-                                <a className={classes.link}>
+                                <a href="#Portfolio" className={classes.link}>
                                     <span style={{cursor: "pointer"}}
                                           className={classNames(color.primary, typo.mdMedium)}>Portfolio</span>
                                 </a>
                             </li>
                             <li onClick={toggleButton} className={classes.li}>
-                                <a className={classes.link}>
+                                <a href="#Faq" className={classes.link}>
                                     <span style={{cursor: "pointer"}}
                                           className={classNames(color.primary, typo.mdMedium)}>FAQ</span>
                                 </a>
                             </li>
                             <li onClick={toggleButton} className={classes.li}>
-                                <a className={classes.link}>
+                                <a href="#Rewards" className={classes.link}>
                                     <span style={{cursor: "pointer"}}
                                           className={classNames(color.primary, typo.mdMedium)}>Rewards</span>
                                 </a>
                             </li>
                             <li onClick={toggleButton} className={classes.li}>
-                                <a className={classes.link}>
+                                <a href="#Pro" className={classes.link}>
                                     <span style={{cursor: "pointer"}}
                                           className={classNames(color.primary, typo.mdMedium)}>PRO</span>
                                 </a>
@@ -67,8 +68,8 @@ function Header() {
                     </nav>
                 </div>
                 <div className={classes.isActiveWrapper}>
-                    <DetectButton isActive={true} btnText="Download" buttonSize={classes.sizeButton}/>
-                    <img src={!menuOpen ? menu : close} className={classes.burgerButton} onClick={toggleButton}></img>
+                    <DetectButton className={classes.button} isActive={true} btnText="Download"/>
+                    <img src={!menuOpen ? menu : close} className={classes.burgerButton} onClick={toggleMenu}></img>
                 </div>
             </div>
         </div>

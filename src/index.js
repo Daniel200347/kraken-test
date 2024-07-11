@@ -20,13 +20,13 @@ root.render(
     <React.StrictMode>
         <>
             <Header/>
-            <StartScreen/>
-            <Main/>
-            <Portfolio/>
-            <Faq/>
-            <Rewards/>
-            <Pro/>
-            <Start/>
+            <section id="startScreen"><StartScreen/></section>
+            <section id="Main"><Main/></section>
+            <section id="Portfolio"><Portfolio/></section>
+            <section id="Faq"><Faq/></section>
+            <section id="Rewards"><Rewards/></section>
+            <section id="Pro"><Pro/></section>
+            <section id="Start"><Start/></section>
             <Footer/>
         </>
     </React.StrictMode>
