@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/kraken-test/static/css/main.d1ffcfbf.css",
-    "main.js": "/kraken-test/static/js/main.2ff65154.js",
+    "main.js": "/kraken-test/static/js/main.05d40450.js",
     "static/media/BackgroundIconPro.png": "/kraken-test/static/media/BackgroundIconPro.4572f6c39234cd7db1da.png",
-    "static/media/screen.png": "/kraken-test/static/media/screen.b0903fb71835d4d3b2e7.png",
     "static/media/KrakenProductRegularOblique.ttf": "/kraken-test/static/media/KrakenProductRegularOblique.d529f8e5335b6715f727.ttf",
     "static/media/KrakenProductMedium.ttf": "/kraken-test/static/media/KrakenProductMedium.b97d67851cc764e18169.ttf",
     "static/media/KrakenProductSemiBold.ttf": "/kraken-test/static/media/KrakenProductSemiBold.b185836d63bbeb2a3a21.ttf",
@@ -11,6 +10,7 @@
     "static/media/KrakenProductBold.ttf": "/kraken-test/static/media/KrakenProductBold.b2f527d4a6be9974f1f9.ttf",
     "static/media/KrakenBrandBold.otf": "/kraken-test/static/media/KrakenBrandBold.d340a82cc3c195662911.otf",
     "static/media/KrakenBrandRegular.otf": "/kraken-test/static/media/KrakenBrandRegular.50c450ebce47915cba89.otf",
+    "static/media/screen.png": "/kraken-test/static/media/screen.03b6dfab83f93fbfa6ca.png",
     "static/media/instructionInstall.png": "/kraken-test/static/media/instructionInstall.d5158773d3b11bd73bf8.png",
     "static/media/menu.svg": "/kraken-test/static/media/menu.225bd7eafee60a869907e65812125ade.svg",
     "static/media/instructionAllow.png": "/kraken-test/static/media/instructionAllow.8151b0e5d3ee6051679b.png",
@@ -67,10 +67,10 @@
     "static/media/plus.svg": "/kraken-test/static/media/plus.c93633a91003c0e6913090629285ceab.svg",
     "static/media/minus.svg": "/kraken-test/static/media/minus.b9b32429945327a3e6e67aa39c6fa349.svg",
     "main.d1ffcfbf.css.map": "/kraken-test/static/css/main.d1ffcfbf.css.map",
-    "main.2ff65154.js.map": "/kraken-test/static/js/main.2ff65154.js.map"
+    "main.05d40450.js.map": "/kraken-test/static/js/main.05d40450.js.map"
   },
   "entrypoints": [
     "static/css/main.d1ffcfbf.css",
-    "static/js/main.2ff65154.js"
+    "static/js/main.05d40450.js"
   ]
 }
